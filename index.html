@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bb1d24c066.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stop-watch">
+        <h1 id="timer">00:00:00</h1>
+        <div class="button">
+          <i class="fa-solid fa-rotate-left" onclick="resetTimer()"></i>
+          <i class="fa-solid fa-play" id="play-btn" onclick="startTimer()"></i>
+          <i class="fa-solid fa-stop" onclick="stopTimer()"></i>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
